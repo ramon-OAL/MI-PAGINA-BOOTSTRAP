@@ -1,0 +1,152 @@
+nav.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #78f7f7 !important;}
+
+
+div.carousel-caption.d-none.d-md-block h5{
+    color: rgb(205, 38, 38);
+    font-size: 50px;
+}
+div.carousel-caption.d-none.d-md-block p{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Verdana;
+    font-style: italic;
+}
+div.container.text-center{
+    background-color: rgb(8, 8, 7);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+div.container.text-center h2{
+    font-size: 20px;
+    color: rgb(5, 15, 33);
+    text-decoration: underline;
+    font-family: cursive;
+}
+.viajes {
+    color: rgb(0, 0, 0);
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: fantasy;
+
+}
+
+.col-3 h3{
+    font-size: 20px;
+    color:rgb(48, 74, 244)}
+
+
+    div.container.text-center.columna4{
+        background-color: rgb(254, 248, 248);
+        border: 1px solid black;
+    }
+    div.container.text-center.columna4 p{
+        color: black;
+    }
+    div.container.text-center.columna4 i{
+        color: red;
+        font-size: 30px;
+    }
+
+ .Actividades{
+        text-align:center;
+        background-color: blanchedalmond;
+        font-family: fantasy;
+        }
+    
+
+    div.container.text-center.ActividadesA{
+        background-color: rgb(221, 210, 232);
+    }
+    .ActividadesA img{
+        width: 500px;
+        height: 300px;
+
+    }
+    .ActividadesA p{
+        color: rgb(36, 33, 33);
+        font-size: 15px;
+        font-family: Times New Roman;
+    }
+
+.nosotros{
+    text-align:center;
+    background-color: blanchedalmond;
+    font-family: fantasy;
+    }
+
+.personal img{
+    width: 300px;
+    height:300px;
+    border-radius: 100px 80px;
+}
+div.nosotros1{
+    background-color: white;
+}
+div.nosotros1 p{
+    color: black;
+}
+
+.contacto{
+    text-align:center;
+    background-color: blanchedalmond;
+    font-family: fantasy;
+}
+
+/*LOS ESTILOS DEL FORMULARIO*/
+
+form.miformulario{
+    width: 40%;
+    padding: 3%;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(212, 224, 192);
+}
+/*caja de los datos de nombre, telefono y email*/
+.datosP{ 
+
+background-color: rgb(164, 164, 159);
+padding: 30px 20px;
+border: 1px solid black;
+}
+    
+/*caja de carnet de conducir*/
+.est1 legend{ 
+font-family: fantasy;
+}
+.est1{
+border: 1px solid black;
+    padding:20px 15px ;
+}
+
+.est2{
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.est2 legend{
+    font-family: fantasy;
+}
+.est3 label{
+    font-family: fantasy;
+
+}
+/*estilos del footer y las redes sociales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+    transition: 0.5s;
+}
+
+body{
+    height:100vh;
+    width:100%;
+    posiction:relative;
+    
+
+}
