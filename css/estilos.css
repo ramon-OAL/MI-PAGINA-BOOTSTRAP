@@ -136,17 +136,74 @@ border: 1px solid black;
 /*estilos del footer y las redes sociales*/
 
 *{
-    margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing:border-box;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: black;
+
+}
+.footer1{
+    width: 100%;
+    padding: 70px 30px 20px;
+    height: 400px;
+}
+.redes-social{
+display:flex;
+justify-content: center;
+}
+
+.redes-social a{
+text-decoration: none;
+padding: 10px;
+background-color: white;
+margin: 10px;
+border-radius: 50%;
+}
+.redes-social a i{
+    font-size:20px ;
+    color:black;
+    opacity:0.9 ;
+
+}
+.redes-social a:hover{
+  background-color:rgb(137, 137, 137) ;  
+  transition: 0.5s;
+
+}
+.redes-social a:hover i{
+    color:white;
     transition: 0.5s;
 }
-
-body{
-    height:100vh;
-    width:100%;
-    posiction:relative;
+.menufooter ul {
+  display: flex;
+  justify-content:center ;
     
-
 }
+.menufooter ul li a{
+    color: white;
+    margin:20px;
+    text-decoration: none;
+    font-size:1.3em ;
+    opacity:0.7;
+    transition: 0.5s;
+}
+.menufooter ul li a:hover{
+    opacity:1 ;
+}
+.footer2{
+    background-color: rgb(41, 39, 39);
+    padding: 20px;
+    text-align: center;}
+    .diseñado{
+     opacity:0.7;
+     text-transform:uppercase ;
+     letter-spacing:1px ;
+     font-weight: 400;
+     margin: 0px 5px;
+     
+
+
+    }
+
