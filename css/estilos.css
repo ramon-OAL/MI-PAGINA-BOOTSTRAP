@@ -142,6 +142,7 @@ border: 1px solid black;
 }
 footer{
     background-color: black;
+    ;
 
 }
 .footer1{
@@ -173,7 +174,7 @@ border-radius: 50%;
 
 }
 .redes-social a:hover i{
-    color:white;
+    color:white !important;
     transition: 0.5s;
 }
 .menufooter ul {
@@ -196,14 +197,13 @@ border-radius: 50%;
     background-color: rgb(41, 39, 39);
     padding: 20px;
     text-align: center;}
+    
     .diseñado{
      opacity:0.7;
      text-transform:uppercase ;
      letter-spacing:1px ;
      font-weight: 400;
      margin: 0px 5px;
-     
+        }
 
-
-    }
 
