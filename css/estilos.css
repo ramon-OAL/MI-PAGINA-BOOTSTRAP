@@ -2,17 +2,24 @@
 /*menú principapl*/
 ul .nav-item{
     text-align: center;
-    background-color: rgb(255, 252, 222);
+    background-color: rgb(247, 247, 235);
     margin-top: 50px;
 }
-.row.menuprincipal{
-background-color: red;
+.row.viajesA h3{
+    color:black
 }
 
-
 /*carouser*/
+.row.menup{
+    background-color: rgb(255, 235, 205);
+}
 
-
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #ffde83 !important;
+}
+.nav-link {
+    color: black !important;
+}
 
 div.container.text-center{
     background-color: rgb(255, 255, 255);
