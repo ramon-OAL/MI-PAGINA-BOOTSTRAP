@@ -88,6 +88,9 @@ div.container.text-center h2{
         font-size: 15px;
         font-family: Times New Roman;
     }
+    p.card-text{
+        font-family: ;
+    }
 /** NOSOTROS*/
 .nosotros{
     text-align:center;
@@ -118,11 +121,13 @@ div.nosotros1 p{
 form.miformulario{
     width: 40%;
     padding: 3%;
-    border-radius: 10px;
+    border-radius: 10px ;
     margin: auto;
     background-color: rgb(244, 244, 208);
     margin-bottom: 20px;
     margin-top: 20px;
+    border: 1px solid black;
+    
 }
 /*caja de los datos de nombre, telefono y email*/
 .datosP{ 
@@ -161,7 +166,7 @@ border: 1px solid black;
 /*estilos del footer y las redes sociales*/
 
 *{
-    ;
+    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -175,6 +180,7 @@ footer{
     width: 100%;
     padding: 70px 30px 20px;
     height: 400px;
+  ;
 }
 .redes-social{
 display:flex;
