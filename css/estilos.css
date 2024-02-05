@@ -1,11 +1,18 @@
-nav.bg-body-tertiary {
-    --bs-bg-opacity: 1;
-    background-color:rgb(255, 235, 205) !important;
+
+/*menú principapl*/
+nav.navbar .bg-body-tertiary{
+    text-align: center;
+    margin-bottom: 50px;
+
 }
 
 
+/*carouser*/
+
+
+
 div.container.text-center{
-    background-color: rgb(8, 8, 7);
+    background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
@@ -15,6 +22,10 @@ div.container.text-center h2{
     text-decoration: underline;
     font-family: cursive;
 }
+
+
+
+
 .viajes {
     color: rgb(0, 0, 0);
     background-color: blanchedalmond;
@@ -22,6 +33,13 @@ div.container.text-center h2{
     font-family: fantasy;
 
 }
+
+/*bloque 2 columnas */
+
+
+
+
+
 
 .col-3 h3{
     font-size: 20px;
@@ -93,11 +111,13 @@ form.miformulario{
     border-radius: 10px;
     margin: auto;
     background-color: rgb(212, 224, 192);
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 /*caja de los datos de nombre, telefono y email*/
 .datosP{ 
 
-background-color: rgb(164, 164, 159);
+background-color: rgb(109, 109, 109);
 padding: 30px 20px;
 border: 1px solid black;
 }
@@ -109,19 +129,23 @@ font-family: fantasy;
 .est1{
 border: 1px solid black;
     padding:20px 15px ;
+    color: black;
 }
 
 .est2{
     border: 1px solid black;
     padding: 10px 15px;
     margin-bottom: 20px;
+    color: black;
 }
 
 .est2 legend{
     font-family: fantasy;
+    color: black;
 }
 .est3 label{
     font-family: fantasy;
+    color: black;
 
 }
 /*estilos del footer y las redes sociales*/
@@ -133,7 +157,7 @@ border: 1px solid black;
 }
 footer{
     background-color: black;
-    ;
+    margin-bottom:20px;
 
 }
 .footer1{
@@ -182,7 +206,7 @@ border-radius: 50%;
     transition: 0.5s;
 }
 .menufooter ul li a:hover{
-    opacity:1 ;
+    opacity:1;
 }
 .footer2{
     background-color: rgb(41, 39, 39);
