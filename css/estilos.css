@@ -1,6 +1,6 @@
 nav.bg-body-tertiary {
     --bs-bg-opacity: 1;
-    background-color: #78f7f7 !important;}
+    background-color:rgb(255, 235, 205) !important;}
 
 
 div.carousel-caption.d-none.d-md-block h5{
@@ -57,7 +57,7 @@ div.container.text-center h2{
     
 
     div.container.text-center.ActividadesA{
-        background-color: rgb(221, 210, 232);
+        background-color: rgb(199, 197, 201);
     }
     .ActividadesA img{
         width: 500px;
@@ -169,7 +169,7 @@ border-radius: 50%;
 
 }
 .redes-social a:hover{
-  background-color:rgb(137, 137, 137) ;  
+  background-color:rgb(198, 193, 193) ;  
   transition: 0.5s;
 
 }
