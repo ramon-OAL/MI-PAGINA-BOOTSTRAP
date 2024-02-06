@@ -162,11 +162,11 @@ div.nosotros1 p{
 /*caja de los datos de nombre, telefono y email*/
 
 .datosP{ 
-background-color: rgb(109, 109, 109);
+background-color: rgb(246, 215, 185);
 padding: 30px 20px;
 border: 1px solid black;
 }
-    
+
 /*caja de carnet de conducir*/
 
 .est1 legend{ 
