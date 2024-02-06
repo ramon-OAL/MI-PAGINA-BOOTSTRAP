@@ -4,6 +4,7 @@ ul .nav-item{
     text-align: center;
     background-color: rgb(247, 247, 235);
     margin-top: 50px;
+ 
 }
 .row.viajesA h3{
     color:black
@@ -12,6 +13,8 @@ ul .nav-item{
 /*carouser*/
 .row.menup{
     background-color: rgb(255, 235, 205);
+
+  
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -28,9 +31,9 @@ div.container.text-center{
 }
 div.container.text-center h2{
     font-size: 20px;
-    color: rgb(5, 15, 33);
-    text-decoration: underline;
-    font-family: cursive;
+    color: rgb(222, 170, 29);
+
+    font-family: sans-serif;
 }
 
 
@@ -44,6 +47,11 @@ div.container.text-center h2{
 
 }
 
+
+ .row.viajesA{
+
+    margin:50px
+ }
 /*bloque 2 columnas */
 
 
@@ -64,7 +72,7 @@ div.container.text-center h2{
         color: black;
     }
     div.container.text-center.columna4 i{
-        color: red;
+        color: rgb(234, 160, 32);
         font-size: 30px;
     }
 /*aCTIVIDADES*/
@@ -73,8 +81,10 @@ div.container.text-center h2{
         background-color: blanchedalmond;
         font-family: fantasy;
         }
-    
+        div.container.text-center {
+            background-color:rgb(247 247 235)
 
+        }
     div.container.text-center.ActividadesA{
         background-color: rgb(225, 228, 189);
     }
@@ -89,19 +99,35 @@ div.container.text-center h2{
         font-family: Times New Roman;
     }
     p.card-text{
-        font-family: ;
+        font-family:serif;
+        color: rgb(100, 103, 100);
     }
+    div.container.text-center.columna4 p {
+        color: #837e7e;
+    }
+    h5.card-title {
+        color: rgb(208, 162, 48);
+    }
+    a.btn-primary{
+        background-color: rgb(237, 237, 192);
+        color: black;
+    }
+
 /** NOSOTROS*/
 .nosotros{
     text-align:center;
     background-color: blanchedalmond;
     font-family: fantasy;
+    color: black ;
+    }
+    div.col{
+        padding: 30px 30px;
     }
 
 .personal img{
     width: 300px;
     height:300px;
-    border-radius: 100px 80px;
+    border-radius: 100px 80px; 
 }
 div.nosotros1{
     background-color: white;
@@ -174,6 +200,7 @@ border: 1px solid black;
 footer{
     background-color: black;
     margin-bottom:20px;
+
 
 }
 .footer1{
