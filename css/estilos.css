@@ -1,150 +1,149 @@
 
-/*menú principapl*/
-ul .nav-item{
+/*MENU PRINCIPAL*/
+
+   ul .nav-item{ /*caja del menu*/
     text-align: center;
     background-color: rgb(247, 247, 235);
     margin-top: 50px;
- 
-}
-.row.viajesA h3{
-    color:black
-}
-
-/*carouser*/
-.row.menup{
-    background-color: rgb(255, 235, 205);
-
+    }
   
-}
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #ffde83 !important; /*color del cuadrado del menu*/
+    }
+    .nav-link {
+        color: black !important; /*ccolor de las letras del menu*/
+    }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    background-color: #ffde83 !important;
-}
-.nav-link {
-    color: black !important;
-}
+/*carouser de 3*/
+   .row.menup{
+    background-color: rgb(255, 235, 205);
+    }
 
-div.container.text-center{
-    background-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-}
-div.container.text-center h2{
-    font-size: 20px;
-    color: rgb(222, 170, 29);
-
-    font-family: sans-serif;
-}
-
-
-
-
-.viajes {
-    color: rgb(0, 0, 0);
-    background-color: blanchedalmond;
-    text-align: center;
-    font-family: fantasy;
-
-}
-
-
- .row.viajesA{
-
-    margin:50px
- }
-/*bloque 2 columnas */
-
-
-
-
-
+/* CAJA DE 4 COLUMNAS CON CONTENIDO*/
 
 .col-3 h3{
-    font-size: 20px;
-    color:rgb(35, 36, 38)}
+    font-size: 50px;
+    color:rgb(35, 36, 38)
+    }
 
+/*DIFERENTES VIAJES A EUROPA*/
+
+    div.container.text-center{
+    background-color: rgb(255, 255, 255);
+    color: rgb(65, 62, 62);
+    font-weight: bold;
+    }
 
     div.container.text-center.columna4{
         background-color: rgb(254, 248, 248);
         border: 1px solid black;
     }
-    div.container.text-center.columna4 p{
-        color: black;
-    }
-    div.container.text-center.columna4 i{
+
+
+    .viajes{ 
+    color: rgb(0, 0, 0);
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: fantasy;
+     }
+
+ 
+     div.container.text-center.columna4 i{
         color: rgb(234, 160, 32);
-        font-size: 30px;
+        font-size: 40px;
     }
-/*aCTIVIDADES*/
- .Actividades{
+
+    .row.viajesA{
+    margin:80px
+    }
+
+
+/*CAJA 2  TARJETAS DE SURF Y BUCEO*/
+
+ .Actividades{ /*titulo*/
         text-align:center;
         background-color: blanchedalmond;
         font-family: fantasy;
         }
         div.container.text-center {
             background-color:rgb(247 247 235)
-
         }
-    div.container.text-center.ActividadesA{
+        
+        div.container.text-center.ActividadesA{
         background-color: rgb(225, 228, 189);
-    }
-    .ActividadesA img{
+        }
+
+
+        .ActividadesA img{
         width: 500px;
         height: 300px;
 
-    }
-    .ActividadesA p{
+        }
+    
+        .ActividadesA p{
         color: rgb(36, 33, 33);
         font-size: 15px;
         font-family: Times New Roman;
-    }
-    p.card-text{
+        }
+    
+        p.card-text{
         font-family:serif;
         color: rgb(100, 103, 100);
-    }
-    div.container.text-center.columna4 p {
+        }
+
+        div.container.text-center.columna4 p {
         color: #837e7e;
-    }
-    h5.card-title {
+        }
+
+        h5.card-title {
         color: rgb(208, 162, 48);
-    }
-    a.btn-primary{
+        }
+
+        a.btn-primary{ /*botón de la tarjeta*/
         background-color: rgb(237, 237, 192);
         color: black;
-    }
+         }
+
 
 /** NOSOTROS*/
-.nosotros{
+
+    .nosotros{
     text-align:center;
     background-color: blanchedalmond;
     font-family: fantasy;
     color: black ;
     }
-    div.col{
+    
+    div.col{ /*relleno del contendor de nosotros*/
         padding: 30px 30px;
     }
 
-.personal img{
+    .personal img{/*imagenes de nosotros*/
     width: 300px;
     height:300px;
     border-radius: 100px 80px; 
-}
-div.nosotros1{
-    background-color: white;
-}
+    }
+
+    div.nosotros1 h2{
+        color: rgb(214, 175, 84);
+    }
+    
 div.nosotros1 p{
-    color: black;
+    color: rgb(31, 31, 31);
 }
 
-.contacto{
-    text-align:center;
-    background-color: blanchedalmond;
-    font-family: fantasy;
-}
+
 
 /*LOS ESTILOS DEL FORMULARIO*/
 
-form.miformulario{
+
+    .contacto{ /*título del formulario*/
+    text-align:center;
+    background-color: blanchedalmond;
+    font-family: fantasy;
+    }
+
+    form.miformulario{ /*caja deñ fprmulario*/
     width: 40%;
     padding: 3%;
     border-radius: 10px ;
@@ -153,17 +152,18 @@ form.miformulario{
     margin-bottom: 20px;
     margin-top: 20px;
     border: 1px solid black;
-    
-}
-/*caja de los datos de nombre, telefono y email*/
-.datosP{ 
+    }
 
+/*caja de los datos de nombre, telefono y email*/
+
+.datosP{ 
 background-color: rgb(109, 109, 109);
 padding: 30px 20px;
 border: 1px solid black;
 }
     
 /*caja de carnet de conducir*/
+
 .est1 legend{ 
 font-family: fantasy;
 }
@@ -197,18 +197,21 @@ border: 1px solid black;
     margin: 0;
     box-sizing: border-box;
 }
-footer{
+
+    footer{
     background-color: black;
     margin-bottom:20px;
+    }
 
-
-}
-.footer1{
+    .footer1{
     width: 100%;
     padding: 70px 30px 20px;
     height: 400px;
-  ;
-}
+  
+    }
+
+/*Redes sociales del  footer*/
+ 
 .redes-social{
 display:flex;
 justify-content: center;
@@ -265,6 +268,7 @@ border-radius: 50%;
      margin: 0px 5px;
         }
 
+/*fondo de la página*/
 
 body{
     background-color: rgb(247, 247, 235) !important;
