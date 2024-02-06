@@ -11,13 +11,18 @@
     background-color: #ffde83 !important; /*color del cuadrado del menu*/
     }
     .nav-link {
-        color: black !important; /*ccolor de las letras del menu*/
+        color: black !important; /*color de las letras del menu*/
     }
 
 /*carouser de 3*/
    .row.menup{
     background-color: rgb(255, 235, 205);
     }
+/*CAJA DE 3 COLUMNAS CON CONTENIDO*/
+
+div.col-sm-4 h2{
+    color: #e3b841;
+}
 
 /* CAJA DE 4 COLUMNAS CON CONTENIDO*/
 
@@ -105,7 +110,7 @@
          }
 
 
-/** NOSOTROS*/
+/* NOSOTROS*/
 
     .nosotros{
     text-align:center;
@@ -269,7 +274,6 @@ border-radius: 50%;
         }
 
 /*fondo de la página*/
-
 body{
     background-color: rgb(247, 247, 235) !important;
 }
